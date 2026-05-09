@@ -21,6 +21,7 @@ from .llamacpp import (
     LLAMA_CPP_RELEASE_URL,
     LLAMA_CPP_DEFAULT_TAG,
 )
+from .manager import LocalModelFacade
 
 __all__ = [
     "DownloadStatus",
@@ -37,4 +38,5 @@ __all__ = [
     "DownloadCancelled",
     "LLAMA_CPP_RELEASE_URL",
     "LLAMA_CPP_DEFAULT_TAG",
+    "LocalModelFacade",
 ]
