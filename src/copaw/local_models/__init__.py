@@ -15,6 +15,12 @@ from .model_manager import (
     ModelManager,
     BYTES_PER_GB,
 )
+from .llamacpp import (
+    LlamaCppBackend,
+    DownloadCancelled,
+    LLAMA_CPP_RELEASE_URL,
+    LLAMA_CPP_DEFAULT_TAG,
+)
 
 __all__ = [
     "DownloadStatus",
@@ -27,4 +33,8 @@ __all__ = [
     "LocalModelInfo",
     "ModelManager",
     "BYTES_PER_GB",
+    "LlamaCppBackend",
+    "DownloadCancelled",
+    "LLAMA_CPP_RELEASE_URL",
+    "LLAMA_CPP_DEFAULT_TAG",
 ]
