@@ -5,6 +5,7 @@ from .base import ModelInfo, ProviderInfo, Provider
 from .openai_compat import OpenAICompatibleProvider
 from .anthropic_compat import AnthropicCompatibleProvider
 from .ollama import OllamaProvider
+from .manager import ProviderCoordinator, ActiveModelConfig
 
 __all__ = [
     "ModelInfo",
@@ -13,4 +14,6 @@ __all__ = [
     "OpenAICompatibleProvider",
     "AnthropicCompatibleProvider",
     "OllamaProvider",
+    "ProviderCoordinator",
+    "ActiveModelConfig",
 ]
