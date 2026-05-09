@@ -9,6 +9,12 @@ from .download import (
     start_download,
     apply_result,
 )
+from .model_manager import (
+    DownloadSource,
+    LocalModelInfo,
+    ModelManager,
+    BYTES_PER_GB,
+)
 
 __all__ = [
     "DownloadStatus",
@@ -17,4 +23,8 @@ __all__ = [
     "ProgressTracker",
     "start_download",
     "apply_result",
+    "DownloadSource",
+    "LocalModelInfo",
+    "ModelManager",
+    "BYTES_PER_GB",
 ]
