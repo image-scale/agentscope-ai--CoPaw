@@ -16,6 +16,6 @@ Implement the project in dependency order: start with configuration and constant
 - [x] Task 10: Implement unified local model manager facade that combines download manager, model manager, and llama.cpp backend (manager.py)
 - [x] Task 11: Implement Pydantic configuration models for agent config, channel configs, and runtime settings (config.py)
 - [x] Task 12: Implement CLI main entry point with lazy-loading subcommand support using Click framework (main.py)
-- [ ] Task 13: Implement CLI init command for initializing workspace with configuration prompts and defaults (init_cmd.py)
+- [x] Task 13: Implement CLI init command for initializing workspace with configuration prompts and defaults (init_cmd.py)
 - [ ] Task 14: Implement CLI providers/models command for listing and managing LLM providers (providers_cmd.py)
 - [ ] Task 15: Implement workspace system for managing agent runtime environments with service coordination (workspace.py)
