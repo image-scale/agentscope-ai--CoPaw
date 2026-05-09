@@ -3,5 +3,12 @@
 
 from .base import ModelInfo, ProviderInfo, Provider
 from .openai_compat import OpenAICompatibleProvider
+from .anthropic_compat import AnthropicCompatibleProvider
 
-__all__ = ["ModelInfo", "ProviderInfo", "Provider", "OpenAICompatibleProvider"]
+__all__ = [
+    "ModelInfo",
+    "ProviderInfo",
+    "Provider",
+    "OpenAICompatibleProvider",
+    "AnthropicCompatibleProvider",
+]

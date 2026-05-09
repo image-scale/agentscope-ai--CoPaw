@@ -6,8 +6,8 @@ Implement the project in dependency order: start with configuration and constant
 ## Tasks
 - [x] Task 1: Implement environment variable loading and path configuration (constant.py with EnvVarLoader, working directories, config paths)
 - [x] Task 2: Implement LLM provider abstraction with model information and provider configuration models (provider.py with ModelInfo, ProviderInfo, Provider base class)
-- [>] Task 3: Implement OpenAI-compatible provider that connects to OpenAI API, checks connectivity, and fetches available models (openai_provider.py)
-- [ ] Task 4: Implement Anthropic provider that connects to Anthropic API with connection checking and model management (anthropic_provider.py)
+- [x] Task 3: Implement OpenAI-compatible provider that connects to OpenAI API, checks connectivity, and fetches available models (openai_provider.py)
+- [>] Task 4: Implement Anthropic provider that connects to Anthropic API with connection checking and model management (anthropic_provider.py)
 - [ ] Task 5: Implement Ollama provider for local Ollama server connectivity and model discovery (ollama_provider.py)
 - [ ] Task 6: Implement provider manager that coordinates multiple providers, handles activation, and persists configuration to JSON files (provider_manager.py)
 - [ ] Task 7: Implement download progress tracking system for model downloads with status tracking, cancellation support, and progress snapshots (download_manager.py)
