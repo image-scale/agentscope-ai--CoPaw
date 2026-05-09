@@ -4,6 +4,7 @@
 from .base import ModelInfo, ProviderInfo, Provider
 from .openai_compat import OpenAICompatibleProvider
 from .anthropic_compat import AnthropicCompatibleProvider
+from .ollama import OllamaProvider
 
 __all__ = [
     "ModelInfo",
@@ -11,4 +12,5 @@ __all__ = [
     "Provider",
     "OpenAICompatibleProvider",
     "AnthropicCompatibleProvider",
+    "OllamaProvider",
 ]
